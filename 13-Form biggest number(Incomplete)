@@ -1,0 +1,33 @@
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+int main(){
+
+	int n,testcase,i,j,a[100][100]; //creating our 2-d array
+	cin>>testcase; //no of testcases
+
+	int array_len[testcase]; //array for storing length of 1-d arrays created
+	int m=0;
+
+	while(testcase--){
+
+		cin>>array_len[m];
+
+		//populating our 2-d array (see as rows of 1-d arrays)
+		for(i=0;i<array_len[m];i++){
+			cin>>a[m][i];
+		}
+
+		//sorting the 1-d array according to question
+		for(i=0;i<array_len;i++){
+			
+		}
+
+	}
+
+
+
+	return 0;
+}
